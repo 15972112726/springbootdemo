@@ -105,6 +105,12 @@
 			<artifactId>lombok</artifactId>
 			<version>1.16.18</version>
 		</dependency>
+
+		<!-- 配置 AOP 切面 添加依赖-->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-aop</artifactId>
+		</dependency>
 	</dependencies>
 
 	<!-- maven编译插件，用于创建可执行jar包 -->
